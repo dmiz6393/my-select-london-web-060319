@@ -1,10 +1,10 @@
 def my_select(array)
  i=0 
- array=[]
+ new_array=[]
  while i<array.length
  if (yield(array[i])) 
-   array<< array[i]
+   new_array<< array[i]
   i+=1 
 end
-array
+new_array
 end 
