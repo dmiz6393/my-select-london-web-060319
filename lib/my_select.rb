@@ -1,4 +1,3 @@
-
 def my_select(collection)
  i=0 
  collection=[]
@@ -10,7 +9,7 @@ end
  i+=1 
  end
  else 
- puts "empty collection" 
+ puts "This block should not run!"
  end
  collection
  end 
