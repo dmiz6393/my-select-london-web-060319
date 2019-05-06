@@ -4,6 +4,6 @@ def my_select(collection)
  if collection.length>0 
  while i<collection.count
  if yield (collection[i]) 
-   
+   collection<<collection[i]
  i+=1 
 end
