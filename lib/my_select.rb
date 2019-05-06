@@ -2,7 +2,7 @@ def my_select(collection)
  i=0 
  collection=[]
  if collection.length>0 
- while i<collection.count
+ while i<collection.length
  if yield (collection[i]) 
    collection<<collection[i]
 end
