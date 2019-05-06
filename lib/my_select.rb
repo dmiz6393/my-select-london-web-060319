@@ -7,5 +7,5 @@ def my_select(array)
    array<< array[i]
   i+=1 
 end
- end
+array
 end 
