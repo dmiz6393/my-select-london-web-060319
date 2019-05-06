@@ -5,5 +5,8 @@ def my_select(collection)
  while i<collection.count
  if yield (collection[i]) 
    collection<<collection[i]
- i+=1 
 end
+ i+=1 
+ end
+ else 
+ puts 
