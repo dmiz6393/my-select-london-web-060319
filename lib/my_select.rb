@@ -9,4 +9,7 @@ end
  i+=1 
  end
  else 
- puts 
+ puts "empty collection" 
+ end
+ collection
+ end 
