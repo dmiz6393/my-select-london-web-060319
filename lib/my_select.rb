@@ -7,8 +7,3 @@ def my_select(collection)
 end
  i+=1 
  end
- else 
- puts "This block should not run!"
- end
- collection
- end 
