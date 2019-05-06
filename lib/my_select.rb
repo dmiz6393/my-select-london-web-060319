@@ -3,6 +3,6 @@ def my_select(collection)
  collection=[]
  if collection.length>0 
  while i<collection.count
- collection<<yield (collection 
+ collection<<yield (collection[i]) 
  i+=1 
 end
